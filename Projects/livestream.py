@@ -22,7 +22,7 @@ cv2.destroyAllWindows()
 
 import cv2
 
-capture =  cv2.VideoCapture("http://192.166.1.2:8080/video")
+capture =  cv2.VideoCapture(0)
 
 while (True) :
     _, frame = capture.read()
